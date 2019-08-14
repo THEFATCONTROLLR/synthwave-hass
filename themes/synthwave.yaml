@@ -16,7 +16,7 @@ synthwave:
   ###
   
   # background and sidebar
-  card-background-color: '#34294f88'
+  paper-card-background-color: '#2f2445' #Fixed card background colour certain parts of hass don't like 8 digit hex
   primary-background-color: 'var(--primary-color)' 
   secondary-background-color: 'var(--light-primary-color)' # behind the cards on state
   ha-card-border-radius: '0'
@@ -36,7 +36,7 @@ synthwave:
   # slider-bar-color: 'var(--disabled-text-color)'
   
   # mwc - for some reason it's buttons
-  mdc-theme-primary: 'var(--primary-text-color)'
+  mdc-theme-primary: '#f92aad'              #Fixed white buttons - hass does not give deep config in certain areas but I think this should work.
   
   # shadows
   ha-card-box-shadow: '0'
